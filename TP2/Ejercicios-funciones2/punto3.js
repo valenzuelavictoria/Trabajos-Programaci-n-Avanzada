@@ -16,8 +16,8 @@ function autenticarUsuario(credenciales){
     })
 }
 
-const credencialesCorrectas={usuario:'Pepe',contraseña:'contraseña'}
-const credencialesIncorrectas={usuario:'Luis',contraseña:'123456'}
+const credencialesCorrectas={usuario:'Marta',contraseña:'Marta123'}
+const credencialesIncorrectas={usuario:'Cacho',contraseña:'Cacho123'}
 
 autenticarUsuario(credencialesCorrectas)
     .then(resultado => {
